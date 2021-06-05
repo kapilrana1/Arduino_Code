@@ -1,6 +1,6 @@
 #include <Arduino.h>
-const int ledpin = 2; // initializing pin number 2 to the LED  
-const int buttonpin = 4; // initializing pin number 4 to the button  
+const int ledpin = 2;  
+const int buttonpin = 4; 
 int buttonState = 0;  
 void setup()  
 {  
