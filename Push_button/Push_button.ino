@@ -1,6 +1,6 @@
 #include <Arduino.h>
-const int ledpin = 2;  
-const int buttonpin = 4; 
+const int ledpin = 2; // initializing pin number 2 to the LED  
+const int buttonpin = 4; // initializing pin number 4 to the button  
 int buttonState = 0;  
 void setup()  
 {  
@@ -23,9 +23,8 @@ delay ( 500);
   }   
   else   
   {  
-    // turn LED off  
     digitalWrite(ledpin, LOW);  
     Serial.println("LED is OFF"); // When we press the button, it will print LED is OFF.  
   }  
-delay ( 500);  
+delay ( 5000);  
 }  
