@@ -6,10 +6,12 @@ void setup() {
    pinMode(led_pin, OUTPUT);
   }
 void loop() {
-  if(digitalRead(switch1) == HIGH){
+  if(digitalRead(switch1) == HIGH)
+  {
     digitalWrite(led_pin, HIGH);
   }
-  if(digitalRead(switch1) == LOW){
+  if(digitalRead(switch1) == LOW)
+  {
     digitalWrite(led_pin, LOW);
      }
 
