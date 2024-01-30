@@ -10,6 +10,7 @@ void setup() {
   pinMode(redL,OUTPUT);
   pinMode(redR,OUTPUT);
   pinMode(blue,OUTPUT);
+  
 }
 void loop() {
   if (digitalRead(buttonL)==HIGH && digitalRead(buttonR)==HIGH)
